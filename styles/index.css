@@ -13,14 +13,44 @@ html {
     text-align: center;
 }
 
-/* Component Styles */
+figure {
+    margin: 0;
+}
+
+/* Typography Styles */
+h2,
+h3,
+h4,
+h5 {
+    margin: .4em 0;
+}
+
+a {
+    color: seashell;
+}
+
+a:hover {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+/* Layout Styles */
 .banner {
-    width: 1200px;
+    max-width: 1200px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 30px 0;
 }
 
 /* Header Styles */
 .header-container {
-    width: 100v;
+    width: 100vw;
 }
 
 header {
@@ -36,6 +66,7 @@ header {
     left: 0;
     z-index: 10;
     background-color: #000;
+    margin-bottom: 69px;
 }
 
 .logo {
@@ -44,7 +75,6 @@ header {
 
 .main-nav li{
     display: inline-block;
-    text-decoration: underline;
     margin-left: 50px;
 }
 
@@ -64,4 +94,23 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+/* Tea of the month Section */
+.img-bestseller {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.bestseller-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bestseller {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 16px;
 }
