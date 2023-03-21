@@ -13,6 +13,11 @@ html {
     text-align: center;
 }
 
+/* Component Styles */
+.banner {
+    width: 1200px;
+}
+
 /* Header Styles */
 .header-container {
     width: 100v;
@@ -43,6 +48,20 @@ header {
     margin-left: 50px;
 }
 
-.divider {
-    height: 69px;
+/* Mission Banner Styles */
+.banner-main {
+    height: 700px;
+    background-image: url(../images/img-mission-background.webp);
+    margin: 69px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-label {
+    background-color: #000;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
